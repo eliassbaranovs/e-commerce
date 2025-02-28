@@ -15,6 +15,7 @@ const Coaching = () => {
       <VideoProvider>
         <div className="flex flex-col lg:flex-row w-full">
           <ProgressBar videoSrc="/videos/Impact-Drill.mp4" />
+
           <div className="w-full lg:w-[35%] p-2">
             <CoachingClient />
           </div>

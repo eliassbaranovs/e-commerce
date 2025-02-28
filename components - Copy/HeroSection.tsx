@@ -1,11 +1,6 @@
 import Image from "next/image";
-import { GolfGoal } from "../app/page"; // Make sure this path is correct based on your file structure
 
-interface HeroSectionProps {
-  goal: GolfGoal;
-}
-
-export default function HeroSection({ goal = "Break 80" }: HeroSectionProps) {
+export default function HeroSection() {
   return (
     <section className="px-6 py-10">
       <Image
@@ -20,7 +15,7 @@ export default function HeroSection({ goal = "Break 80" }: HeroSectionProps) {
           {/* Title */}
           <h1 className="text-2xl font-semibold text-gray-900">
             We have put together a swing improvement solution to help you{" "}
-            <span className="text-[#5772ff]">{goal.toLowerCase()}</span>
+            <span className="text-[#5772ff]">break 80</span>
           </h1>
 
           <div className="mt-4">
@@ -40,21 +35,19 @@ export default function HeroSection({ goal = "Break 80" }: HeroSectionProps) {
               </li>
             </ul>
             {/* Button */}
-            <button className="mt-6 px-6 py-2 bg-[#5772ff] text-white rounded-3xl font-semibold flex items-center justify-center md:justify-start hover:bg-[#4056d6] hover:shadow-lg">
+            <button className="mt-6 px-6 py-2 bg-[#5772ff] text-white rounded-3xl font-semibold flex items-center justify-center md:justify-start">
               Start Now →
             </button>
           </div>
         </div>
 
         <div className="mt-8 flex flex-col gap-4 md:mt-0 md:order-2">
-          {/* Added priority for LCP(Largest Content Paint error) */}
           <Image
             src="/images/Improvement-Graph.png"
             alt="Graph showing improvement"
             width={500}
             height={300}
             className="mx-auto"
-            priority={true}
           />
           <div className="md:hidden">
             <Image

@@ -30,20 +30,10 @@ const drills: DrillInfo[] = [
 ];
 
 const CoachingClient = () => {
-  const { currentDrill, setCurrentDrill, seekTo } = useVideoContext();
+  const { currentDrill, setCurrentDrill } = useVideoContext();
 
   const toggleDrill = (drill: DrillType): void => {
-    const newDrill = currentDrill === drill ? null : drill;
-    setCurrentDrill(newDrill);
-
-    // If drill is being opened, seek to the appropriate timestamp.
-    if (newDrill) {
-      let time = 0;
-      if (newDrill === "static") time = 5;
-      else if (newDrill === "dynamic") time = 14;
-      else if (newDrill === "fullswing") time = 24;
-      seekTo(time);
-    }
+    setCurrentDrill(currentDrill === drill ? null : drill);
   };
 
   return (
