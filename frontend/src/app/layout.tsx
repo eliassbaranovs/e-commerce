@@ -20,7 +20,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Golf Improvement Landing Page",
+  title: "HackMotion - Imrpove your golf game",
   description: "Custom golf improvement solutions based on your skill level",
 };
 
