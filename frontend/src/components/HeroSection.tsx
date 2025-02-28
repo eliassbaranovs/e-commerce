@@ -14,7 +14,6 @@ export default function HeroSection({ goal = "Break 80" }: HeroSectionProps) {
         className="hidden md:block"
         width={150}
         height={50}
-
       />
       <div className="mx-auto text-center md:grid md:items-center md:grid-cols-2 md:gap-8 md:p-8">
         <div className="text-left md:order-1">
@@ -82,7 +81,6 @@ export default function HeroSection({ goal = "Break 80" }: HeroSectionProps) {
               width={500}
               height={300}
               className="mx-auto"
-        
             />
           </div>
         </div>
