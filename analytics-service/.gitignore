@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+node_modules/
 /.pnp
 .pnp.*
 .yarn/*
@@ -13,19 +14,29 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# build output
+/dist
 
-# production
-/build
+# data files (optional - you may want to keep these in version control)
+# /data
 
-# misc
-.DS_Store
-*.pem
+# environment variables
+.env
+.env.*
+!.env.example
 
-# debug
+# logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+
+# misc
+.DS_Store
+*.pem
+.vscode/
+.idea/
+*.swp
+*.swo

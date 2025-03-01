@@ -1,0 +1,132 @@
+:root {
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --secondary: #6b7280;
+  --bg-color: #f3f4f6;
+  --card-bg: #ffffff;
+  --text-dark: #111827;
+  --text-light: #6b7280;
+  --border-color: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.5;
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.time-range {
+  color: var(--secondary);
+  font-size: 0.9rem;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: var(--primary);
+}
+
+/* Charts container styles removed */
+
+h2, h3 {
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.filter-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+select, input, button {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  font-family: inherit;
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+.events-table-container {
+  overflow-x: auto;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.events-table th, .events-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.events-table th {
+  background-color: #f9fafb;
+  font-weight: 500;
+}
+
+.events-table tr:hover {
+  background-color: #f9fafb;
+}
+
+@media (max-width: 768px) {
+  /* Charts container media query removed */
+  
+  .filter-bar {
+    flex-direction: column;
+  }
+}

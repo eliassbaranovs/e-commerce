@@ -40,7 +40,6 @@ export default async function Home({
     }
   } catch (error) {
     console.error("Error processing search parameters:", error);
-    // Fallback to default goal if there's an error
   }
 
   return (

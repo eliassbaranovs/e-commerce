@@ -1,6 +1,6 @@
 "use client";
 import CoachingClient from "./CoachingClient";
-import ProgressBar from "./ProgressBar";
+import VideoSection from "./VideoSection";
 import { VideoProvider } from "../contexts/videoContext";
 
 const Coaching = () => {
@@ -14,7 +14,7 @@ const Coaching = () => {
       </div>
       <VideoProvider>
         <div className="flex flex-col lg:flex-row w-full">
-          <ProgressBar videoSrc="/videos/Impact-Drill.mp4" />
+          <VideoSection videoSrc="/videos/Impact-Drill.mp4" />
           <div className="w-full lg:w-[35%] p-2">
             <CoachingClient />
           </div>
