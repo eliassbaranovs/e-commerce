@@ -5,8 +5,9 @@ import { useVideoContext } from "../contexts/videoContext";
 import { useAnalytics } from "./useAnalytics";
 import { VideoPlayerHookResult } from "@/types";
 
+// Update the function signature to accept potentially null refs
 export function useVideoPlayer(
-  videoRef: RefObject<HTMLVideoElement>,
+  videoRef: RefObject<HTMLVideoElement | null>,
   videoId: string = "impact-drill"
 ): VideoPlayerHookResult {
   const [progress, setProgress] = useState(0);
@@ -129,7 +130,7 @@ export function useVideoPlayer(
   const togglePlay = () => {
     const video = videoRef.current;
     if (!video) return;
-    
+
     if (video.paused) {
       video.play();
       setIsPlaying(true);
@@ -138,20 +139,19 @@ export function useVideoPlayer(
       setIsPlaying(false);
     }
   };
-  
+
   const seekTo = (time: number) => {
     if (videoRef.current) {
       videoRef.current.currentTime = time;
     }
   };
-  
-  // Return object matching VideoPlayerHookResult interface
+
   return {
     progress,
     isPlaying,
     currentTime,
     duration,
     togglePlay,
-    seekTo
+    seekTo,
   };
 }

@@ -1,14 +1,14 @@
 "use client";
-import React, { createContext, useState, useContext, ReactNode } from "react";
-import { VideoContextType } from "@/types";
+
+import React, { createContext, useState, useContext, ReactNode, RefObject } from "react";
 
 type DrillType = "static" | "dynamic" | "fullswing" | null;
 
 interface VideoContextType {
   currentDrill: DrillType;
   setCurrentDrill: (drill: DrillType) => void;
-  videoRef: RefObject<HTMLVideoElement> | null;
-  setVideoRef: (ref: RefObject<HTMLVideoElement>) => void;
+  videoRef: RefObject<HTMLVideoElement | null> | null;
+  setVideoRef: (ref: RefObject<HTMLVideoElement | null>) => void;
   seekTo: (time: number) => void;
 }
 
@@ -17,7 +17,7 @@ const VideoContext = createContext<VideoContextType | undefined>(undefined);
 
 export function VideoProvider({ children }: { children: ReactNode }) {
   const [currentDrill, setCurrentDrill] = useState<DrillType>("static");
-  const [videoRef, setVideoRef] = useState<RefObject<HTMLVideoElement> | null>(null);
+  const [videoRef, setVideoRef] = useState<RefObject<HTMLVideoElement | null> | null>(null);
   
   const seekTo = (time: number) => {
     if (videoRef && videoRef.current) {

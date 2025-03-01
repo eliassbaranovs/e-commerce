@@ -387,6 +387,154 @@
         "timestamp": "2025-03-01T16:33:57.235Z"
       },
       "ip": "::1"
+    },
+    {
+      "id": "5c4fe7ae-429b-42a9-b700-b9187a2d9d44",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:45:16.952Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:45:14.562Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "242a5647-a2ae-47e3-9e88-cb0e7b1390ee",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:52:19.509Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:52:17.487Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "30735c60-040c-456e-b337-05609876c028",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:56:16.981Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:56:14.678Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "e33a7301-7c7c-4381-b442-138a959b9576",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:57:33.263Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:57:31.238Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "ff5cb831-768e-4cd4-b519-f30c38e40979",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:57:45.651Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:57:43.621Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "9f57f70b-410c-429e-a588-3a134ea60c41",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:58:35.670Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0,
+        "timestamp": "2025-03-01T16:58:35.122Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "afd32e16-cd31-4a58-86a2-0596cc95063e",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:58:43.660Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.371703,
+        "timestamp": "2025-03-01T16:58:42.162Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "395b697d-e20e-4482-8ade-4942839b6240",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:58:43.665Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 1.190859,
+        "timestamp": "2025-03-01T16:58:42.982Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "4b66fdd3-37d7-4d14-a070-cbb2860907a2",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T17:03:29.568Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T17:03:27.032Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "a43ef5ea-f7d1-40f5-8b32-b87f69cd514a",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T17:03:35.089Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.000977,
+        "timestamp": "2025-03-01T17:03:34.645Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "df15efd6-589a-4ae0-b308-18d7acbd2758",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T17:03:41.080Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 1.051548,
+        "timestamp": "2025-03-01T17:03:40.810Z"
+      },
+      "ip": "::1"
     }
   ]
 }

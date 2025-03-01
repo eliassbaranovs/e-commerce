@@ -16,6 +16,7 @@ const VideoPlayer = ({
   videoId = "impact-drill",
   onProgressChange,
 }: VideoPlayerProps) => {
+  // Fix: Use non-null assertion to tell TypeScript this will be assigned a value
   const videoRef = useRef<HTMLVideoElement>(null);
   const { progress } = useVideoPlayer(videoRef, videoId);
 

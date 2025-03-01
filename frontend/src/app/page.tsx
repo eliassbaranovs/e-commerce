@@ -1,5 +1,6 @@
 "use client";
 
+import React, { Suspense } from "react";
 import HeroSection from "@/components/HeroSection";
 import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
@@ -8,7 +9,8 @@ import { useSearchParams } from "next/navigation";
 // Define the valid goal options
 export type GolfGoal = "Break Par" | "Break 80" | "Break 90" | "Break 100";
 
-export default function Home() {
+// Create a separate component to use the searchParams hook
+function HomeContent() {
   const searchParams = useSearchParams();
 
   // Default to 'Break 80' if no goal parameter or invalid value
@@ -52,5 +54,24 @@ export default function Home() {
       </div>
       <Footer />
     </div>
+  );
+}
+
+// Main component with Suspense boundary
+export default function Home() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex flex-col min-h-screen bg-[#e6e6e6]">
+          <div className="max-w-7xl mx-auto w-full">
+            <div className="h-screen flex items-center justify-center">
+              <p className="text-xl font-semibold">Loading...</p>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <HomeContent />
+    </Suspense>
   );
 }

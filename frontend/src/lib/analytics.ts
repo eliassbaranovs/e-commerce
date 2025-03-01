@@ -1,6 +1,4 @@
-import {
-  AnalyticsEvent
-} from "@/types/analytics";
+
 
 const isBrowser = typeof window !== "undefined";
 
@@ -11,7 +9,11 @@ type AnalyticsEventType =
   | "page_view";
 
 // Event buffer storage
-let eventBuffer: AnalyticsEvent[] = [];
+let eventBuffer: {
+  type: AnalyticsEventType;
+  data: Record<string, string | number | boolean>;
+  timestamp: string;
+}[] = [];
 let flushInterval: NodeJS.Timeout | null = null;
 let isSending = false;
 const bufferTimeMs = 2000; // Flush every 2 seconds
@@ -53,7 +55,8 @@ const track = (
     }
   }
 
-  const event: AnalyticsEvent = {
+  // Use a simplified event structure for the buffer
+  const event = {
     type,
     data,
     timestamp: new Date().toISOString(),
