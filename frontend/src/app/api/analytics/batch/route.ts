@@ -32,7 +32,6 @@ export async function POST(req: NextRequest) {
               userAgent: req.headers.get("user-agent") || "",
               referer: req.headers.get("referer") || "",
               timestamp: timestamp,
-              path: data.path,
             },
           };
           break;

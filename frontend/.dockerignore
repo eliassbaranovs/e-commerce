@@ -1,0 +1,10 @@
+node_modules
+.next
+dist
+build
+out
+public/assets
+public/favicon.ico
+public/dashboard.css
+public/dashboard.html
+public/dashboard.js
