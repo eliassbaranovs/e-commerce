@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const config: NextConfig = {
+  reactStrictMode: true,
   transpilePackages: [
     "d3",
     "d3-color",
@@ -14,4 +14,4 @@ const nextConfig: NextConfig = {
   ],
 };
 
-export default nextConfig;
+export default config;

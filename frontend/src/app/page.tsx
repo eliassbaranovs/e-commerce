@@ -1,22 +1,22 @@
+"use client";
+
 import HeroSection from "@/components/HeroSection";
 import Coaching from "@/components/Coaching";
 import Footer from "@/components/Footer";
+import { useSearchParams } from "next/navigation";
 
 // Define the valid goal options
 export type GolfGoal = "Break Par" | "Break 80" | "Break 90" | "Break 100";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: { goal?: string };
-}) {
+export default function Home() {
+  const searchParams = useSearchParams();
+
   // Default to 'Break 80' if no goal parameter or invalid value
   let goal: GolfGoal = "Break 80";
 
   try {
-    // Get the search params value safely
-    const params = await searchParams || {};
-    const goalParam = params.goal;
+    // Access searchParams using the hook method
+    const goalParam = searchParams?.get("goal");
 
     // Validate and set the goal from URL parameter
     if (goalParam) {

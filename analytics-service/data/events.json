@@ -1,3 +1,392 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "9282d960-658a-4d5a-a200-76f7aad580c8",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:16:50.541Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:16:48.050Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "2e82517a-068d-4b55-8bae-f2821a7e6f40",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:16:58.138Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.000476,
+        "timestamp": "2025-03-01T16:16:56.795Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "f1544622-ecf7-47dd-965f-2cb1a6eae9ca",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:17:00.116Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 3.233078,
+        "timestamp": "2025-03-01T16:17:00.029Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "7e9ff21c-6d6b-46f6-bf0a-85ab30b34190",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:19:31.665Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:19:29.242Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "2b93f4eb-53a4-4d93-a3f9-fb81e253f67d",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:19:35.686Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:19:33.587Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "5a6182c5-efa0-40be-8e16-c29fbc974959",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:19:56.041Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:19:53.953Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "9eb9198d-f125-4ad2-975c-8c0d373a5ec9",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:23:48.366Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:23:46.266Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "02ba4401-fd66-448a-9bc6-86195f4cdd63",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:24:02.888Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:24:00.825Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "07ff2f07-6187-40c8-aead-07e0986ac7ad",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:24:16.252Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:24:14.164Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "dee31de1-ac85-4961-ae92-e838cf578a0b",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:26:13.303Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:26:10.742Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "dc349494-1302-4e7e-8ad2-8b01f09f6d14",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:26:29.160Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:26:27.090Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "add41f87-d9ce-4967-bd0b-3fb793dfd3e4",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:26:38.136Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:26:36.075Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "877716e8-8c66-477c-896c-4fd753ac7c6d",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:26:44.160Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.000998,
+        "timestamp": "2025-03-01T16:26:42.822Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "8b3b23ad-3644-4a65-861a-62a4379151d3",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:26:44.166Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.676136,
+        "timestamp": "2025-03-01T16:26:43.498Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "6eef17d5-ab66-46a0-820f-08ebda04fa55",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:28:39.931Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:28:37.376Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "acd63de0-967b-42db-8814-80e1f5750781",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:33.263Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:30:31.190Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "65799a79-8a64-48e6-9ee7-d85948addddf",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:41.941Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:30:39.869Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "c596491d-eaa3-4788-9ef8-5b17ca9ecef0",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:47.929Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.000979,
+        "timestamp": "2025-03-01T16:30:46.214Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "b25d6381-610d-49d8-9243-d239f40914b6",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:53.927Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 2.28187,
+        "timestamp": "2025-03-01T16:30:53.744Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "8e4a53f3-d511-49a4-957d-3a82efe4f50d",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:57.945Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 5.914712,
+        "timestamp": "2025-03-01T16:30:57.378Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "3ae4aeab-d064-4eac-9198-ca45f9c49551",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:59.903Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 5.915963,
+        "timestamp": "2025-03-01T16:30:59.500Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "d76e33f9-5024-4711-92ca-4bb846b9cb59",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:30:59.905Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 6.200805,
+        "timestamp": "2025-03-01T16:30:59.786Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "d2c37571-4b8a-4fec-bc86-9689971c4da9",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:31:09.893Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:31:07.829Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "1fbe7e79-2b23-4df5-8e9b-d410f311c375",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:12.468Z",
+      "url": "http://localhost:3000/",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/",
+        "timestamp": "2025-03-01T16:33:09.964Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "276527e4-2b66-41bf-82d8-0a5a8b32ae80",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:22.724Z",
+      "url": "http://localhost:3000/?goal=break-90",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-90",
+        "timestamp": "2025-03-01T16:33:20.636Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "eda89678-c1f2-40e7-b7bb-c74deb19cdf3",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:25.401Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:33:23.346Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "15f45d2f-a680-4ea6-b16c-69120b3e47be",
+      "type": "page_view",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:50.897Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "referer": "http://localhost:3000/?goal=break-100",
+        "timestamp": "2025-03-01T16:33:48.910Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "1e521fc5-4fae-4449-9571-02a97b7b87c6",
+      "type": "video_start",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:56.910Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 0.000881,
+        "timestamp": "2025-03-01T16:33:56.087Z"
+      },
+      "ip": "::1"
+    },
+    {
+      "id": "790b60e2-7a24-466c-9c9c-55f91826c136",
+      "type": "video_pause",
+      "userId": "a0071127-90f1-4e26-9980-fade58d82183",
+      "timestamp": "2025-03-01T16:33:58.927Z",
+      "url": "http://localhost:3000/?goal=break-100",
+      "metadata": {
+        "videoId": "impact-drill",
+        "duration": 34.017317,
+        "currentTime": 1.147682,
+        "timestamp": "2025-03-01T16:33:57.235Z"
+      },
+      "ip": "::1"
+    }
+  ]
 }
